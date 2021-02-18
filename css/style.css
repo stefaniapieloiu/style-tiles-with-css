@@ -1,24 +1,26 @@
 /* change these */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
 
 * {
   box-sizing: border-box;
 }
-
+body {
+  font-family: "EB Garamond", serif;
+}
 /* THIS IS ALL meant for editing. You might want to do it differently, 
 name the variables differently, 
 use the fonts in other ways in the font hierarchy etc. */
 
 /* change these */
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: rgb(97, 97, 146);
+  --link-color: black;
+  --link-hover-color: rgb(255, 255, 255);
+  --color-4: rgb(255, 255, 255);
+  --color-5: rgb(255, 255, 255);
 
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Droid Serif", serif;
@@ -33,13 +35,13 @@ button {
 a {
   transition: all 3s;
 }
-button:hover {
+/* button:hover {
   background-color: var(--link-hover-color);
   transform: scale(3) rotate(40deg);
-}
+} */
 
 button:active {
-  background-color: var(--bg-color);
+  background-color: ghostwhite;
 }
 
 a:hover {
